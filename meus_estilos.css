@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/* Carregar fonte sem instalar */
+@font-face{
+    font-family: "twcenmteb";
+    src: url("fontes/tw-cen-mt-eb.ttf") format("truetype");
+}
+
+body{
+    margin: 0px;
+    font-family: verdana;
+    
+}
+
+
+
+.fonte-zero{
+    font-size: 0px;
+    padding: 0px;
+    opacity: 0;
+    float: none;
+    border: 0px;
+    display: none;
+}
+
+.nome-empresa{
+    font-family: "twcenmteb";
+    font-size: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.fundo-rodape{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.icone-rodape{
+    font-size: 40px;
+}
+
+.vertical-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Trabalhando com responsividade do site */
+
+@media all and (min-width: 992px) and (max-width: 1199px){
+   .nome-empresa{
+    font-family: "twcenmteb";
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} 
+}
+
+@media all and (min-width: 768px) and (max-width: 991px){
+    .nome-empresa{
+    font-family: "twcenmteb";
+    font-size: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} 
+}
+
+@media all and (min-width: 576px) and (max-width: 767px){
+    .nome-empresa{
+    font-family: "twcenmteb";
+    font-size: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} 
+}
+
+@media all and (min-width: 361px) and (max-width: 575px){
+    .nome-empresa{
+    font-family: "twcenmteb";
+    font-size: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} 
+}
+
+@media all and (max-width: 360px){
+    .nome-empresa{
+    font-family: "twcenmteb";
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} 
+}
+
+
+
+

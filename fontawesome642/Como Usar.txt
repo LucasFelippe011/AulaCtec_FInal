@@ -1,0 +1,12 @@
+Incluir antes do fechamento de </head>
+
+<!-- Font Awesome para ícones -->
+<link href="fontawesome-6.4.2/css/all.css" rel="stylesheet" type="text/css">
+<script src="fontawesome-6.4.2/js/all.js"></script>
+
+
+Exemplo de uso:
+
+<i class="fa-brands fa-square-x-twitter"></i>
+<i class="fab fa-facebook-square"></i>
+<i class="fab fa-instagram"></i>
